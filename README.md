@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Squad Builder
 
-## Available Scripts
+- [Descrição](#descrição-do-projeto)
+- [Status do Projeto](#status-do-projeto)
+- [Funcionalidades](#⚙️-funcionalidades)
+- [Como executar o projeto](#🚀-como-executar-o-projeto)
+- [Tecnologias](#🛠-tecnologias)
 
-In the project directory, you can run:
+<br>
 
-### `npm start`
+## Descrição do Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Organize o squad do seu projeto buscando os dados do seu time diretamente no Github
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm test`
+## Status do Projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ⚙️ Funcionalidades
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Planejamento
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [ ] Montar Formulário que monta o Squad
 
-### `npm run eject`
+  - [ ] Adicionar header informativo no form
+  - [ ] Criar Input que vai receber nome do usuario no Git
+  - [ ] Criar Dropdown com os cargos
+  - [ ] Capturar dados dos inputs
+  - [ ] Adicionar botão submit
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [ ] Criar cards dos colaboradores com dados estáticos por enquanto
+- [ ] Enviar dados do form para a lista do Squad ao clicar submit
+- [ ] Listar Squad com dados estáticos após o click no submit
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [ ] Buscar dados na API do GitHub
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  - [ ] Buscar user através do conteúdo do input após clicar em submit
+  - [ ] Guardar dados da API que usaremos (Nome, Foto, <blockquote>Talvez descrição</blockquote>)
+  - [ ] Montar card do colaborador dinâmicamente
+  - [ ] Listar card no seção do cargo selecionado
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [ ] Estilização
+  - [ ] Adicionar Header
+  - [ ] Estilizar Form
+  - [ ] Estilizar Lista
+  - [ ] Adicionar Footer
 
-## Learn More
+<br>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Como executar o projeto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+# Clone este repositório
+$ https://github.com/paulohmoreira/squad-builder.git
 
-### Code Splitting
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd squad-builder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Instale as dependências
+$ npm install
 
-### Analyzing the Bundle Size
+# Execute a aplicação em modo de desenvolvimento
+$ npm run start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Ou se você usa o yarn
+$ yarn run start
 
-### Making a Progressive Web App
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<br>
 
-### Advanced Configuration
+## 🛠 Tecnologias
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+As seguintes ferramentas foram usadas na construção do projeto:
 
-### Deployment
+- **[Reactjs](https://pt-br.reactjs.org/)**
+- **[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
+- **[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<br>
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licença
