@@ -31,7 +31,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
 - [ ] Montar Formulário que monta o Squad
 
   - [x] Criar component de formulário
-  - [ ] Adicionar header informativo no form
+  - [x] Adicionar header informativo no form
   - [ ] Criar Input que vai receber nome do usuario no Git
   - [ ] Criar Dropdown com os cargos
   - [ ] Capturar dados dos inputs
