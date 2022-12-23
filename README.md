@@ -32,7 +32,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
 
   - [x] Criar component de formulário
   - [x] Adicionar header informativo no form
-  - [ ] Criar Input que vai receber nome do usuario no Git
+  - [x] Criar Input que vai receber nome do usuario no Git
   - [ ] Criar Dropdown com os cargos
   - [ ] Capturar dados dos inputs
   - [ ] Adicionar botão submit
