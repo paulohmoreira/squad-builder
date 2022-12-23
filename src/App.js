@@ -1,5 +1,11 @@
-function App() {
-  return <div className='App'>Hello World!</div>;
-}
+import Form from './components/Form';
+
+const App = () => {
+  return (
+    <div>
+      <Form />
+    </div>
+  );
+};
 
 export default App;
