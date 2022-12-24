@@ -34,8 +34,9 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
   - [x] Adicionar header informativo no form
   - [x] Criar Input que vai receber nome do usuario no Git
   - [x] Criar Dropdown com os cargos
+  - [x] Adicionar botão submit
+  - [ ] Previnir comportamento padrão do form
   - [ ] Capturar dados dos inputs
-  - [ ] Adicionar botão submit
 
 - [ ] Criar cards dos colaboradores com dados estáticos por enquanto
 - [ ] Enviar dados do form para a lista do Squad ao clicar submit
