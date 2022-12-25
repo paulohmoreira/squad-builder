@@ -15,7 +15,10 @@ const App = () => {
   return (
     <main>
       <Form times={times.map((time) => time.nome)} />
-      <Squad />
+      <section>
+        <h2>Meu Squad:</h2>
+        <Squad />
+      </section>
     </main>
   );
 };

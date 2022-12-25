@@ -42,7 +42,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
   - [x] Refatorar código de interação com component SelectDropdown
   - [x] Refatorar formulário (Acessibilidade)
 
-- [ ] Criar cards dos colaboradores com dados estáticos por enquanto
+- [x] Criar cards dos colaboradores com dados estáticos por enquanto
 - [ ] Enviar dados do form para a lista do Squad ao clicar submit
 - [ ] Listar Squad com dados estáticos após o click no submit
 - [ ] Refatorar Form (Acessibilidade)
