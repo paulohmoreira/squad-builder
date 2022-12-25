@@ -1,10 +1,19 @@
 import './style.css';
 
-const InputText = () => {
+const InputText = ({ label, placeholder, valor, handleName }) => {
+  const onDigit = (e) => {
+    handleName(e.target.value);
+  };
+
   return (
     <fieldset className='text-field'>
-      <label>Nome de usuário no GitHub</label>
-      <input type='text' placeholder='Digite o nome de usuário' />
+      <label>{label}</label>
+      <input
+        type='text'
+        placeholder={placeholder}
+        value={valor}
+        onChange={onDigit}
+      />
     </fieldset>
   );
 };
