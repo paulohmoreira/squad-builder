@@ -13,6 +13,8 @@ const Form = () => {
     console.log(nome);
     console.log(cargo);
     console.log('Saved!');
+    setNome('');
+    setCargo('');
   };
 
   return (

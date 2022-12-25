@@ -37,7 +37,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
   - [x] Adicionar botão submit
   - [x] Previnir comportamento padrão do form
   - [x] Capturar dados dos inputs
-  - [ ] Limpar os campos após salvar
+  - [x] Limpar os campos após salvar
   - [ ] Deixar os inputs como obrigatórios
   - [ ] Refatorar código de interação com component SelectDropdown
 
