@@ -1,6 +1,6 @@
 import './style.css';
 
-const InputText = ({ label, placeholder, valor, handleName }) => {
+const InputText = ({ label, placeholder, valor, handleName, isRequired }) => {
   const onDigit = (e) => {
     handleName(e.target.value);
   };
@@ -13,6 +13,7 @@ const InputText = ({ label, placeholder, valor, handleName }) => {
         placeholder={placeholder}
         value={valor}
         onChange={onDigit}
+        required={isRequired}
       />
     </fieldset>
   );

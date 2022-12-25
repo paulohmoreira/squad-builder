@@ -25,11 +25,13 @@ const Form = () => {
         placeholder='Digite o nome de usuário'
         valor={nome}
         handleName={(value) => setNome(value)}
+        isRequired={true}
       />
       <SelectDropdown
         label={'Cargo'}
         valor={cargo}
         handleCargo={(value) => setCargo(value)}
+        isRequired={true}
       />
       <Button>Salvar</Button>
     </form>

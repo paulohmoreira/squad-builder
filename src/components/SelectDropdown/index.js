@@ -1,10 +1,14 @@
 import './style.css';
 
-const SelectDropdown = ({ label, valor, handleCargo }) => {
+const SelectDropdown = ({ label, valor, handleCargo, isRequired }) => {
   return (
     <fieldset className='combo-box'>
       <label>{label}</label>
-      <select onChange={(e) => handleCargo(e.target.value)} value={valor}>
+      <select
+        onChange={(e) => handleCargo(e.target.value)}
+        value={valor}
+        required={isRequired}
+      >
         <option></option>
         <option>Programação</option>
         <option>Front-End</option>
