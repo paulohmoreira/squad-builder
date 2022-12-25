@@ -1,6 +1,6 @@
 import './style.css';
 
-const SelectDropdown = ({ label, valor, handleCargo, isRequired }) => {
+const SelectDropdown = ({ label, valor, handleCargo, isRequired, itens }) => {
   return (
     <fieldset className='combo-box'>
       <label>{label}</label>
@@ -10,12 +10,9 @@ const SelectDropdown = ({ label, valor, handleCargo, isRequired }) => {
         required={isRequired}
       >
         <option></option>
-        <option>Programação</option>
-        <option>Front-End</option>
-        <option>Data Science</option>
-        <option>Devops</option>
-        <option>UX e Design</option>
-        <option>Mobile</option>
+        {itens.map((item) => (
+          <option key={item}>{item}</option>
+        ))}
       </select>
     </fieldset>
   );

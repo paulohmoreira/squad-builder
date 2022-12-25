@@ -4,7 +4,7 @@ import InputText from '../InputText';
 import SelectDropdown from '../SelectDropdown';
 import './style.css';
 
-const Form = () => {
+const Form = ({ times }) => {
   const [nome, setNome] = useState('');
   const [cargo, setCargo] = useState('');
 
@@ -30,6 +30,7 @@ const Form = () => {
       <SelectDropdown
         label={'Cargo'}
         valor={cargo}
+        itens={times}
         handleCargo={(value) => setCargo(value)}
         isRequired={true}
       />

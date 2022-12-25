@@ -28,7 +28,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
 
 #### Planejamento
 
-- [ ] Montar Formulário que monta o Squad
+- [x] Montar Formulário que monta o Squad
 
   - [x] Criar component de formulário
   - [x] Adicionar header informativo no form
@@ -39,7 +39,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
   - [x] Capturar dados dos inputs
   - [x] Limpar os campos após salvar
   - [x] Deixar os inputs como obrigatórios
-  - [ ] Refatorar código de interação com component SelectDropdown
+  - [x] Refatorar código de interação com component SelectDropdown
 
 - [ ] Criar cards dos colaboradores com dados estáticos por enquanto
 - [ ] Enviar dados do form para a lista do Squad ao clicar submit
