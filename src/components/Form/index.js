@@ -18,24 +18,26 @@ const Form = ({ times }) => {
   };
 
   return (
-    <form className='squad-form' onSubmit={onSave}>
-      <h1>Preencha os dados para criar o card do colaborador.</h1>
-      <InputText
-        label='Nome de usuário no GitHub'
-        placeholder='Digite o nome de usuário'
-        valor={nome}
-        handleName={(value) => setNome(value)}
-        isRequired={true}
-      />
-      <SelectDropdown
-        label={'Cargo'}
-        valor={cargo}
-        itens={times}
-        handleCargo={(value) => setCargo(value)}
-        isRequired={true}
-      />
-      <Button>Salvar</Button>
-    </form>
+    <section className='squad-form'>
+      <form onSubmit={onSave}>
+        <h1>Preencha os dados para criar o card do colaborador.</h1>
+        <InputText
+          label='Nome de usuário no GitHub'
+          placeholder='Digite o nome de usuário'
+          valor={nome}
+          handleName={(value) => setNome(value)}
+          isRequired={true}
+        />
+        <SelectDropdown
+          label={'Cargo'}
+          valor={cargo}
+          itens={times}
+          handleCargo={(value) => setCargo(value)}
+          isRequired={true}
+        />
+        <Button>Salvar</Button>
+      </form>
+    </section>
   );
 };
 

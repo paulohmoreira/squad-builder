@@ -1,5 +1,6 @@
 import './global.css';
 import Form from './components/Form';
+import Squad from './components/Squad';
 
 const App = () => {
   const times = [
@@ -12,9 +13,10 @@ const App = () => {
     { nome: 'Inovação e Gestão' },
   ];
   return (
-    <div>
+    <main>
       <Form times={times.map((time) => time.nome)} />
-    </div>
+      <Squad />
+    </main>
   );
 };
 

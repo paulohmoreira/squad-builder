@@ -6,16 +6,17 @@ const InputText = ({ label, placeholder, valor, handleName, isRequired }) => {
   };
 
   return (
-    <fieldset className='text-field'>
-      <label>{label}</label>
+    <div className='text-field'>
+      <label htmlFor='name'>{label}</label>
       <input
+        id='name'
         type='text'
         placeholder={placeholder}
         value={valor}
         onChange={onDigit}
         required={isRequired}
       />
-    </fieldset>
+    </div>
   );
 };
 

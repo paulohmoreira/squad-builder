@@ -40,6 +40,7 @@ Organize o squad do seu projeto buscando os dados do seu time diretamente no Git
   - [x] Limpar os campos após salvar
   - [x] Deixar os inputs como obrigatórios
   - [x] Refatorar código de interação com component SelectDropdown
+  - [x] Refatorar formulário (Acessibilidade)
 
 - [ ] Criar cards dos colaboradores com dados estáticos por enquanto
 - [ ] Enviar dados do form para a lista do Squad ao clicar submit
