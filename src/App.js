@@ -1,8 +1,15 @@
 import './global.css';
 import Form from './components/Form';
 import Squad from './components/Squad';
+import { useState } from 'react';
 
 const App = () => {
+  const [colaboradores, setColaboradores] = useState([]);
+
+  const aoNovoColaboradorAdicionado = (colaborador) => {
+    setColaboradores([...colaboradores, colaborador]);
+  };
+
   const times = [
     { nome: 'Programação' },
     { nome: 'Front-End' },
@@ -14,7 +21,12 @@ const App = () => {
   ];
   return (
     <main>
-      <Form times={times.map((time) => time.nome)} />
+      <Form
+        times={times.map((time) => time.nome)}
+        aoColaboradorCadastrado={(colaborador) =>
+          aoNovoColaboradorAdicionado(colaborador)
+        }
+      />
       <section>
         <h2>Meu Squad:</h2>
         <Squad />
